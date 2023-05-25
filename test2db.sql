@@ -9,7 +9,7 @@ id integer primary key,
 name e_role length=20);
 
 CREATE TABLE users(
-id integer primary key,
+id bigint primary key,
 username varchar(20),
 email varchar(50),
 password varchar(120)
@@ -32,4 +32,7 @@ INSERT INTO users
 VALUES(1,'Iryna','iryna@gmail.com','12345'),
 (2,'Irina','irina@gmail.com','23456');
 
+-- DROP table roles;
+-- DROP table users;
 -- DROP table users_roles;
+
